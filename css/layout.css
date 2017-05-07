@@ -1,0 +1,60 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	border-right-color: #9999999;
+	border-left-color: #9999999;
+}
+#wrapper #logo {
+	background-color: #FFF;
+	height: 123px;
+	background-image: url(../images/The%20Giants%20Causeway_2.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 5px;
+}
+#wrapper #navigation {
+	height: 35px;
+	float: right;
+	margin: 5px;
+}
+#wrapper #cssmenu {
+	clear: both;
+	margin: 5px;
+}
+
+#wrapper #bodyArea #left {
+	width: 1250px;
+	background-color: #FFF;
+	float: left;
+}
+#wrapper #bodyArea #right {
+	width: 0px;
+	background-color: #FFF;
+	float: right;
+}
+p {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	margin: 20px;
+}
+
+#wrapper #bodyArea #footer {
+	height: 40px;
+	clear: both;
+}
+
+
+
+#wrapper #headerImg {
+	height: 196px;
+	background-image: url(../images/nautilus%20shell.jpg);
+	background-repeat: no-repeat;
+	clear: both;
+}
