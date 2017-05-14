@@ -277,6 +277,7 @@
     <Content Include="Account\Web.config" />
     <Content Include="Cylinders.aspx" />
     <Content Include="Default1.aspx" />
+    <Content Include="Engineering.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -315,6 +316,7 @@
     <Content Include="images\dop.jpg" />
     <Content Include="images\download.png" />
     <Content Include="images\dtt.jpg" />
+    <Content Include="images\eng1.JPG" />
     <Content Include="images\esg_tree.jpg" />
     <Content Include="images\facebook.png" />
     <Content Include="images\ghandi.jpg" />
@@ -327,6 +329,7 @@
     <Content Include="images\hoses_fittings.jpg" />
     <Content Include="images\images.jpg" />
     <Content Include="images\imagine.jpg" />
+    <Content Include="images\IMG_4954.JPG" />
     <Content Include="images\IMG_7853.JPG" />
     <Content Include="images\inspection.jpg" />
     <Content Include="images\intuition.jpg" />
@@ -372,15 +375,19 @@
     <Content Include="images\uh.jpg" />
     <Content Include="images\uh2.JPG" />
     <Content Include="images\uhplant.jpg" />
+    <Content Include="images\uh_logo.png" />
     <Content Include="images\understand.jpg" />
     <Content Include="images\vessel1.jpg" />
     <Content Include="images\wh.jpg" />
     <Content Include="images\wilde.jpg" />
+    <Content Include="images\zhongwenplant.JPG" />
     <Content Include="js\init.js" />
     <Content Include="js\jquery-1.8.2.min.js" />
     <Content Include="js\jquery.dropotron-1.2.js" />
+    <Content Include="mn\Default.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="docs\UH_TCs.pdf" />
     <None Include="Properties\PublishProfiles\unitedhyd - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -603,8 +610,22 @@
     <Compile Include="Default1.aspx.designer.cs">
       <DependentUpon>Default1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Engineering.aspx.cs">
+      <DependentUpon>Engineering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Engineering.aspx.designer.cs">
+      <DependentUpon>Engineering.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="mn\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mn\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

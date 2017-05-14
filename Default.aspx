@@ -52,18 +52,26 @@
 														<a href="http://uhlogistics.azurewebsites.net" class="arrow">Portal</a>														
 													</li>
 													<li>
-														<a href="#" class="arrow">Tech Specs</a>
+														<a href="#" class="arrow">Capabilties</a>
                                                         <ul>
-															<li><a href="#">Spec Sheet</a></li>
-                                                            <li><a href="#">Force Calcuations</a></li>		
+															<li><a href="Engineering.aspx">Engineering</a></li>
+                                                            <li><a href="#">Manufacturing</a></li>		
+                                                            <li><a href="#">Quality</a></li>
+                                                            <li><a href="#">Value Added Services</a></li>
 														</ul>
-
 													</li>
 													<li>
-														<a href="#" class="arrow">Quality</a>
+														<a href="#" class="arrow">Markets</a>
                                                         <ul>
-															<li><a href="#">PACA Form</a></li>
-                                                            <li><a href="#">Warranty Policy</a></li>
+															<li><a href="#">Agriculture</a></li>
+                                                            <li><a href="#">Automotive Services</a></li>
+                                                            <li><a href="#">Construction</a></li>
+                                                            <li><a href="#">Material Handling</a></li>
+                                                            <li><a href="#">Oil and Gas</a></li>
+                                                            <li><a href="#">Public Services</a></li>
+                                                            <li><a href="#">Road Building</a></li>
+                                                            <li><a href="#">Transportation</a></li>
+                                                            <li><a href="#">Waste & Refuse</a></li>
 														</ul>
 				
 													</li>
@@ -115,7 +123,7 @@
 								
 									<section>
 										<h2><span>Quality Driven</span></h2>
-										<p>We have a proven track record of performing at the highest levels for our customers.  United Hydraulics is currently ISO 9001:2008 certified. Our Texas facility will be ISO 9001:2015 certified by mid-2017.</p>
+										<p>We have a proven track record of performing at the highest levels for our customers.  United Hydraulics is currently ISO 9001:2008 certified. Our Texas facility will be ISO 9001:2015 certified by the end of 2017.</p>
 										<!--<p><a href="#" class="button button-style1">UH Ethics' Statement</a></p>-->
 									</section>
 									
@@ -233,7 +241,7 @@
 													<a href="#" class="image image-left"><img src="images/cyl.jpg" alt=""></a>
 												</div>
 												<br />
-												<h3><a href="Cylinders.aspx">Hydraulic Cylinders - Rod and Telescopic</a></h3>
+												<h3><a href="#">Hydraulic Cylinders - Rod and Telescopic</a></h3>
 												<p></p>
 											</li>
 											<li>
@@ -288,7 +296,7 @@
 		
 								<!-- Copyright -->
 									<div id="copyright">
-									&copy; 2017. SE
+									&copy; 2017 United Hydraulics | A ZhongwenSlayer App
 									</div>
 							
 							</div>
