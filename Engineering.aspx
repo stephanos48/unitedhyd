@@ -48,15 +48,15 @@
 												<ul>
 													<li class="current_page_item"><a href="Default.aspx">Homepage</a></li>
 													<li>
-														<a href="http://uhlogistics.azurewebsites.net" class="arrow">Portal</a>														
+														<a href="http://mlsportal.azurewebsites.net" class="arrow">Portal</a>														
 													</li>
 													<li>
 														<a href="#" class="arrow">Capabilties</a>
                                                         <ul>
 															<li><a href="Engineering.aspx">Engineering</a></li>
-                                                            <li><a href="#">Manufacturing</a></li>		
-                                                            <li><a href="#">Quality</a></li>
-                                                            <li><a href="#">Value Added Services</a></li>
+                                                            <li><a href="Manufacturing.aspx">Manufacturing</a></li>		
+                                                            <li><a href="Quality.aspx">Quality</a></li>
+                                                            <li><a href="VAS.aspx">Value Added Services</a></li>
 														</ul>
 													</li>
 													<li>
@@ -101,38 +101,39 @@
 										<div class="image-border">
 											<a href="#" class="image-left"><img src="images/eng1.jpg" alt="" height="350" width="525" ></a>
 										</div>
-										<p class="subtitle">Solutions for Unique Applications</p>
+										<p class="subtitle"><u>Solutions for Unique Applications</u></p>
                                         
                                         <p>Our engineering staff has decades of experience designing hydraulic cylinders for a multitude of different applications.  Let us help you find the optimal design and ultimate value you are looking for.</p>
                                         <br />
-                                        <p class="subtitle">Design and Prototype Qualification</p>
+                                        <p class="subtitle"><u>Design and Prototype Qualification</u></p>
 
-                                        <p>Our expertise in designing with sealing components has led to advances in cylinder capabilities and functionality. Our design solutions have addressed many of the challenges related to cylinder operation including cushion problems, contamination, pressure trapping, and friction. </p>
+                                        <p>We work closely with our seal partners and other suppliers to make sure we provide our customers the best value. Our design solutions have addressed many of the challenges related to cylinder operation including cushion problems, contamination, pressure trapping, and friction. </p>
                                         
                                         
                                         <p>Our engineers are available for on-site design and application review and troubleshooting. We want to be an extension of your engineering team. </p>
 
                                         <p>We deliver timely designs, prototypes and have complete cylinder analysis and testing capabilities including: </p>
                                         <ol class="style1">
-											<li>Burst Testing</li>
+											<li>Reverse Engineering</li>
+                                            <li>Burst Testing</li>
 											<li>Life Cycle Testing in Application-Like Conditions</li>
 											<li>Pulse Testing</li>
 											<li>Irregular Load Testing</li>
-											<li>Finite Eliminate Analysis to Identify Stree Points</li>
+											<li>Finite Element Analysis to Identify Stress Points</li>
 										</ol>
                                         <br />                                   
                                                                                
                                         
-                                        <p class="subtitle">Field Support</p>
+                                        <p class="subtitle"><u>Field Support</u></p>
                                         
                                         <p>Our engineers are skilled at trouble-shooting and problem-solving on-site and in the field with the latest in data acquisition equipment. We provide superior engineering support to our customers beyond the initial sale. </p>
                                         <br />
 
 
-                                        <p class="subtitle">Engineering Software</p>
+                                        <p class="subtitle"><u>Engineering Software</u></p>
 
                                         <p>SolidWorks (For 2D and 3D Solid Modeling)<br />
-                                        SolidWorks Simulation (Finite Eliminate Analysis)</p>
+                                        SolidWorks Simulation (Finite Element Analysis)</p>
 				
 									</article>
 									
@@ -161,6 +162,29 @@
 			<!-- Copyright Wrapper -->
 
 		</div>
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
 
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-Ny7M9aLdzLyUC"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-Ny7M9aLdzLyUC.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
 	</body>
 </html>

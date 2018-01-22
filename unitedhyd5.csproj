@@ -289,6 +289,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="images\53000-famous-quotes-free-3-1.jpg" />
     <Content Include="images\actuators.jpg" />
+    <Content Include="images\arrow.png" />
     <Content Include="images\arrow01.png" />
     <Content Include="images\background.png" />
     <Content Include="images\banner.jpg" />
@@ -305,8 +306,14 @@
     <Content Include="images\cancel.png" />
     <Content Include="images\car4.png" />
     <Content Include="images\ch.jpg" />
+    <Content Include="images\chinasmall.jpg" />
     <Content Include="images\churchill.jpg" />
     <Content Include="images\cl.jpg" />
+    <Content Include="images\clean.JPG" />
+    <Content Include="images\clean1.JPG" />
+    <Content Include="images\clean2.JPG" />
+    <Content Include="images\cnc.JPG" />
+    <Content Include="images\cnc2.JPG" />
     <Content Include="images\container.jpg" />
     <Content Include="images\cyl.jpg" />
     <Content Include="images\cyl_plant.jpg" />
@@ -319,6 +326,7 @@
     <Content Include="images\eng1.JPG" />
     <Content Include="images\esg_tree.jpg" />
     <Content Include="images\facebook.png" />
+    <Content Include="images\front.jpg" />
     <Content Include="images\ghandi.jpg" />
     <Content Include="images\gradient.svg" />
     <Content Include="images\graphic.jpg" />
@@ -334,10 +342,13 @@
     <Content Include="images\inspection.jpg" />
     <Content Include="images\intuition.jpg" />
     <Content Include="images\johnlocke.jpg" />
+    <Content Include="images\lab.JPG" />
     <Content Include="images\manifold.jpg" />
     <Content Include="images\mls.png" />
     <Content Include="images\mobileUI-site-nav-opener-bg.svg" />
     <Content Include="images\nietzsche.jpg" />
+    <Content Include="images\paint.JPG" />
+    <Content Include="images\paint1.JPG" />
     <Content Include="images\paintline.jpg" />
     <Content Include="images\pic01.jpg" />
     <Content Include="images\pic01.png" />
@@ -353,12 +364,15 @@
     <Content Include="images\power_unit.jpg" />
     <Content Include="images\rack_pinionactuator.jpg" />
     <Content Include="images\rmt.png" />
+    <Content Include="images\robot.JPG" />
+    <Content Include="images\robot1.JPG" />
     <Content Include="images\shadow01.png" />
     <Content Include="images\shadow02.png" />
     <Content Include="images\shanghai-Bund.jpg" />
     <Content Include="images\shanghai.jpg" />
     <Content Include="images\shanghai1.jpg" />
     <Content Include="images\ship.jpg" />
+    <Content Include="images\shop.JPG" />
     <Content Include="images\simple.jpg" />
     <Content Include="images\stupid.jpg" />
     <Content Include="images\SunTzu.jpeg" />
@@ -375,8 +389,11 @@
     <Content Include="images\uh.jpg" />
     <Content Include="images\uh2.JPG" />
     <Content Include="images\uhplant.jpg" />
+    <Content Include="images\uhsmall.jpg" />
     <Content Include="images\uh_logo.png" />
     <Content Include="images\understand.jpg" />
+    <Content Include="images\vertical.JPG" />
+    <Content Include="images\vertical_washer.jpg" />
     <Content Include="images\vessel1.jpg" />
     <Content Include="images\wh.jpg" />
     <Content Include="images\wilde.jpg" />
@@ -384,7 +401,9 @@
     <Content Include="js\init.js" />
     <Content Include="js\jquery-1.8.2.min.js" />
     <Content Include="js\jquery.dropotron-1.2.js" />
+    <Content Include="Manufacturing.aspx" />
     <Content Include="mn\Default.aspx" />
+    <Content Include="Quality.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="docs\UH_TCs.pdf" />
@@ -423,6 +442,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="VAS.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -620,6 +640,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Manufacturing.aspx.cs">
+      <DependentUpon>Manufacturing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manufacturing.aspx.designer.cs">
+      <DependentUpon>Manufacturing.aspx</DependentUpon>
+    </Compile>
     <Compile Include="mn\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -629,6 +656,13 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quality.aspx.cs">
+      <DependentUpon>Quality.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quality.aspx.designer.cs">
+      <DependentUpon>Quality.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -644,6 +678,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="VAS.aspx.cs">
+      <DependentUpon>VAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VAS.aspx.designer.cs">
+      <DependentUpon>VAS.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
